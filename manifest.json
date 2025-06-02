@@ -1,17 +1,17 @@
 {
-    "$schema": "https://cdn.jsdelivr.net/gh/LiteLoaderQQNT/LiteLoaderQQNT@latest/manifest-zh.schema.json",
+    "$schema": "https://raw.githubusercontent.com/LiteLoaderQQNT/LiteLoaderQQNT/refs/heads/main/manifest-zh.schema.json",
     "manifest_version": 4,
     "type": "extension",
-    "name": "插件模板",
-    "slug": "plugin_template",
-    "description": "LiteLoaderQQNT 的插件模板",
+    "name": "Café",
+    "slug": "liteloaderqqnt-plugin-coffee",
+    "description": "NULL",
     "version": "0.1.0",
     "icon": "./icon.png",
     "thumb": "./icon.svg",
     "authors": [
         {
-            "name": "LiteLoaderQQNT",
-            "link": "https://github.com/LiteLoaderQQNT"
+            "name": "nice-winter",
+            "link": "https://github.com/nice-winter"
         }
     ],
     "platform": [
@@ -25,11 +25,11 @@
         "preload": "./src/preload.js"
     },
     "repository": {
-        "repo": "LiteLoaderQQNT/Plugin-Template",
+        "repo": "nice-winter/liteloaderqqnt-plugin-coffee",
         "branch": "main",
         "release": {
             "tag": "0.1.0",
-            "file": "Plugin-Template.zip"
+            "file": "liteloaderqqnt-plugin-coffee.zip"
         }
     }
 }
